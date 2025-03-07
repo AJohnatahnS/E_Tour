@@ -1,0 +1,76 @@
+.multi-day-tours {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .tour-schedule {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .tour-section {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .image-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .bottom-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .btn-blue {
+    background: blue;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .btn-green {
+    background: green;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .btn-blue:hover,
+  .btn-green:hover {
+    opacity: 0.8;
+  }
+}

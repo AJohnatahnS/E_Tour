@@ -1,0 +1,33 @@
+<div class="multi-day-tours">
+  <h1>Multi-Day Tour Packages</h1>
+
+  <div class="tour-schedule" *ngFor="let day of tourSchedule">
+    <div class="tour-section">
+      <h3>Daytime Activities</h3>
+      <div class="image-list">
+        <img
+          *ngFor="let img of day.daytimeImages"
+          [src]="img"
+          alt="Daytime Tour Image"
+        />
+      </div>
+    </div>
+
+    <div class="tour-section">
+      <h3>Night Activities</h3>
+      <div class="image-list">
+        <img
+          *ngFor="let img of day.nightImages"
+          [src]="img"
+          alt="Night Tour Image"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-buttons">
+    <button class="btn-blue" routerLink="/">Back Home</button>
+    <button class="btn-green">Booking</button>
+    <button class="btn-green" routerLink="/contact">Contact</button>
+  </div>
+</div>

@@ -1,0 +1,85 @@
+.one-day-tours {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .tour-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    max-height: 70vh;
+    padding: 10px;
+  }
+
+  .tour-card {
+    display: flex;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    align-items: center;
+  }
+
+  img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+  }
+
+  .tour-info {
+    text-align: left;
+    flex: 1;
+  }
+
+  .detail-btn {
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .detail-btn:hover {
+    background: #0056b3;
+  }
+
+  .bottom-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .btn-blue {
+    background: blue;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .btn-green {
+    background: green;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .btn-blue:hover,
+  .btn-green:hover {
+    opacity: 0.8;
+  }
+}

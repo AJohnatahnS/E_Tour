@@ -1,0 +1,20 @@
+<div class="one-day-tours">
+  <h1>1-Day Tour Packages</h1>
+
+  <div class="tour-list">
+    <div class="tour-card" *ngFor="let tour of tours">
+      <img [src]="tour.image" alt="Tour Image" />
+      <div class="tour-info">
+        <h2>{{ tour.title }}</h2>
+        <p><strong>Time & Place:</strong> {{ tour.time }} | {{ tour.place }}</p>
+        <p>{{ tour.description }}</p>
+        <button class="detail-btn">View Details</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-buttons">
+    <button class="btn-blue">Booking</button>
+    <button class="btn-green" routerLink="/contact">Contact</button>
+  </div>
+</div>
