@@ -1,33 +1,40 @@
-<div class="multi-day-tours">
-  <h1>Multi-Day Tour Packages</h1>
-
-  <div class="tour-schedule" *ngFor="let day of tourSchedule">
-    <div class="tour-section">
-      <h3>Daytime Activities</h3>
-      <div class="image-list">
-        <img
-          *ngFor="let img of day.daytimeImages"
-          [src]="img"
-          alt="Daytime Tour Image"
-        />
-      </div>
+<div class="many-days-tours">
+  <div class="content-container">
+    <!-- Left Side: Image Column -->
+    <div class="image-box">
+      <img
+        *ngFor="let img of tourImages"
+        [src]="img"
+        alt="Luxury Tour"
+        class="main-image"
+      />
     </div>
 
-    <div class="tour-section">
-      <h3>Night Activities</h3>
-      <div class="image-list">
-        <img
-          *ngFor="let img of day.nightImages"
-          [src]="img"
-          alt="Night Tour Image"
-        />
+    <!-- Right Side: Information Column -->
+    <div class="info-box">
+      <h1>{{ tour.title }}</h1>
+      <p><strong>ประเภท:</strong> {{ tour.type }}</p>
+      <p><strong>ระยะเวลา:</strong> {{ tour.duration }}</p>
+      <p><strong>ราคา:</strong> {{ tour.price }}</p>
+      <p><strong>ขนาดกลุ่ม:</strong> {{ tour.groupSize }}</p>
+      <p><strong>การเดินทาง:</strong> {{ tour.transport }}</p>
+      <p><strong>ที่พัก:</strong> {{ tour.accommodation }}</p>
+
+      <h2>📅 กําหนดการเดินทาง</h2>
+      <div class="schedule">
+        <div *ngFor="let day of tour.schedule" class="schedule-day">
+          <h3>{{ day.day }}</h3>
+          <ul>
+            <li *ngFor="let event of day.events">
+              <strong>{{ event.time }}</strong> - {{ event.activity }}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottom-buttons">
+        <button class="btn-green" routerLink="/contact">Contact</button>
       </div>
     </div>
-  </div>
-
-  <div class="bottom-buttons">
-    <button class="btn-blue" routerLink="/">Back Home</button>
-    <button class="btn-green">Booking</button>
-    <button class="btn-green" routerLink="/contact">Contact</button>
   </div>
 </div>

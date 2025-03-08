@@ -1,47 +1,44 @@
-.contact-container {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding: 50px 0;
+.contact-page {
+  background: url("https://cdn.discordapp.com/attachments/1212367163361468471/1347844132659527730/E-TOUR_UBON.png?ex=67cd4d2a&is=67cbfbaa&hm=7cd23f76c9d881cd0386badb3f0de438e004c81bb053553747db27d9dc28f421&")
+    center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-
-  .about,
-  .contact {
-    background: #f8f9fa;
+  .content-box {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
     padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    border-radius: 15px;
+    max-width: 70%;
+    color: white;
+    text-align: center;
   }
 
   .contact-details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-size: 1.2rem;
-    background: white;
-    padding: 15px;
-    border-radius: 5px;
-    width: 60%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
   }
 
-  .title {
+  .contact-details a {
+    color: #ffdd44;
     font-weight: bold;
-    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
   }
 
-  .info {
-    font-size: 1rem;
+  .contact-details a:hover {
+    color: #fff;
+  }
+
+  h1,
+  h2 {
+    color: #ffcc00;
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
   }
 }
