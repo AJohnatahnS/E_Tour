@@ -27,33 +27,64 @@ export class ManyDaysToursComponent {
             time: '12:00 น.',
             activity: 'ถึงอุบลฯ รถ Mercedes-Benz รับที่สนามบิน',
           },
-          { time: '13:00 น.', activity: 'เช็คอินที่โรงแรม The Bliss Ubon' },
+          {
+            time: '13:00 น.',
+            activity:
+              'เช็คอิน Bluemoon Riverside Resort วิลล่าริมแม่น้ำ พร้อม Welcome Drink',
+          },
           { time: '14:00 น.', activity: 'อาหารกลางวัน Fine Dining' },
           {
             time: '16:00 น.',
-            activity: 'Exclusive Sunset Boat Tour + Champagne',
+            activity: 'ชมพระอาทิตย์ตกที่ หาดชมดาว และ Private Sunset Picnic',
           },
-          { time: '19:00 น.', activity: 'อาหารค่ําที่ Private Villa' },
+          {
+            time: '19:00 น.',
+            activity:
+              'รับประทานอาหารเย็นแบบ Fine Dining ที่ Bluemoon Riverside Restaurant พร้อมไวน์ระดับพรีเมียม',
+          },
         ],
       },
       {
         day: 'วันที่สอง',
         events: [
-          { time: '08:00 น.', activity: 'อาหารเช้าที่โรงแรม' },
-          { time: '10:00 น.', activity: 'เที่ยวผาแต้ม พร้อมช่างภาพส่วนตัว' },
+          { time: '08:00 น.', activity: 'อาหารเช้าที่รีสอร์ท' },
+          {
+            time: '10:00 น.',
+            activity:
+              'ล่องเรือหางยาว VIP ชม แม่น้ำสองสี และสัมผัสธรรมชาติริมฝั่งโขง',
+          },
           {
             time: '12:00 น.',
-            activity: 'Private Picnic Lunch ที่ริมแม่น้ําโขง',
+            activity:
+              'อาหารกลางวันที่ ร้านอุบลโอชา ร้านอาหารที่ได้รับรางวัลบิบ กูร์มองด์จากมิชลิน ไกด์',
           },
           { time: '14:00 น.', activity: 'Exclusive Spa Treatment ที่โรงแรม' },
-          { time: '19:00 น.', activity: 'อาหารค่ําระดับ Michelin Star' },
+          {
+            time: '19:00 น.',
+            activity: 'ดินเนอร์หรูริมแม่น้ำที่ Bluemoon Riverside Restaurant',
+          },
         ],
       },
       {
         day: 'วันที่สาม',
         events: [
-          { time: '09:00 น.', activity: 'Brunch และช้อปปิ้งของฝากพรีเมียม' },
-          { time: '12:00 น.', activity: 'เดินทางกลับโดย Business Class' },
+          {
+            time: '09:00 น.',
+            activity: 'Private Temple Tour พร้อมไกด์ส่วนตัว',
+          },
+          {
+            time: '12:00 น.',
+            activity: 'เยี่ยมชมหมู่บ้านทำเทียนพรรษา และ Workshop การทำเทียน',
+          },
+          {
+            time: '13:00 น.',
+            activity:
+              'อาหารกลางวันแบบ Michelin Guide ที่ ร้านอุบลโอชา (Ubon Ocha) – อาหารไทยระดับพรีเมียม โดยเชฟมีความเชี่ยวชาญในการสร้างสรรค์เมนูที่โดดเด่น',
+          },
+          {
+            time: '15:00 น.',
+            activity: 'ส่งลูกค้ากลับสนามบิน',
+          },
         ],
       },
     ],
